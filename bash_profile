@@ -9,6 +9,7 @@ alias ghci='_docker_run jpbarto/ghci'
 alias ghci-dev='_docker_run -v $PWD:/root/dev:rw jpbarto/ghci bash'
 alias redis-cli='_docker_run redis redis-cli'
 alias jekyll='_docker_run -v $PWD:/srv/jekyll -p 4000:4000 jekyll/builder jekyll'
+alias github-pages='_docker_run -v $PWD:/usr/src/app -p 4000:4000 starefossen/github-pages'
 
 # Add GHC 7.8.4 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/Applications/GHC.app"
