@@ -17,3 +17,5 @@ if [ -d "$GHC_DOT_APP" ]; then
   export PATH="${HOME}/.local/bin:${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
 fi
 
+export PATH=$PATH:/usr/local/aws/bin
+complete -C `which aws_completer` aws
