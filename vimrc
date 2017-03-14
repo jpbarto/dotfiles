@@ -5,11 +5,7 @@ set nocompatible
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file
-endif
+set nobackup		" do not keep a backup file
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
@@ -61,6 +57,11 @@ autocmd BufReadPost *
 \ endif
 
 augroup END
+
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set smarttab
 
 autocmd FileType haskell setlocal tabstop=8 expandtab softtabstop=4 shiftwidth=4 smarttab shiftround nojoinspaces
 autocmd FileType nix setlocal tabstop=8 expandtab softtabstop=2 shiftwidth=2 smarttab shiftround autoindent
