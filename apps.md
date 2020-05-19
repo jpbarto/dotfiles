@@ -10,3 +10,4 @@ zsh
 oh-my-zsh
 pipenv
 postman
+outline
