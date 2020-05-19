@@ -9,3 +9,4 @@ alfred
 zsh
 oh-my-zsh
 pipenv
+postman
