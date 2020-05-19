@@ -7,3 +7,5 @@ rain
 iterm
 alfred
 zsh
+oh-my-zsh
+pipenv
