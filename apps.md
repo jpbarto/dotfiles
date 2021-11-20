@@ -118,3 +118,4 @@ zsh
 zsh-syntax-highlighting
 koekeishiya/formulae/yabai
 skhd
+vim
