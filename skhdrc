@@ -164,6 +164,7 @@ shift + alt - j : yabai -m window --warp south
 shift + alt - k : yabai -m window --warp north
 shift + alt - l : yabai -m window --warp east
 shift + alt - g : yabai -m space --rotate 90
+alt - y : yabai -m space --rotate 90
 
 # Resize windows
 # grow vertically
